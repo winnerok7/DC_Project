@@ -1,0 +1,53 @@
+@media (max-width: 1199px){
+   html{
+      font-size: 12px;
+   }
+   .btn-apl{
+      font-size: 18px;
+   }
+   .price-tag{
+      margin: auto 2rem;
+   }
+}
+
+@media (max-width: 969px){
+   html{
+      font-size: 12px;
+   }
+   .btn-apl{
+      font-size: 16px;
+   }
+   .visible-lg{
+      display: none;
+   }
+   .m-menu-link{
+      display: block;
+   }
+   .price-tags{
+      flex-direction: column;
+   }
+   .price-tag{
+      width: 50%;
+      margin: 2rem auto;
+   }
+   .footer-item{
+      font-size: 12px;
+   }
+   .copyright{
+      margin-left: 70px;
+   }
+   .table-header p{
+      width: auto;
+   }
+
+   .cwu-btn{
+      display: inline-block;
+      margin: 0;
+      width: 90px;
+      font-size: 1rem;
+   }
+
+   .footer-menu-link{
+      margin-right: 5px;
+   }
+}

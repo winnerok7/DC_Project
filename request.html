@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/style4.css">
+   <link rel="stylesheet" href="css/media_req.css">
+   <!-- <link rel="stylesheet" href="css/media.css"> -->
+
+   <title>Vector</title>
+</head>
+
+<body>
+   <!-- Прелоадер -->
+   <div class="preloader">
+      <div class="preloader__row">
+         <div class="preloader__item"></div>
+         <div class="preloader__item"></div>
+      </div>
+   </div>
+
+   <ul class="m-menu">
+      <li class="close-menu">&times;</li>
+      <li><a href="home.html" class="menu-link">Главная</a></li>
+      <li><a href="contacts.html" class="menu-link">Контакты</a></li>
+      <li><a href="information.html" class="menu-link">О нас</a></li>
+      <li><a href="request.html" class="get-appl-btn">Подать заявку</a></li>
+   </ul>
+   <div class="main">
+      <div class="header">
+         <div class="logo">
+            <a href="index.html" class="logo-item">Vector</a>
+         </div>
+         <a href="#" class="m-menu-link">
+            <i class="fa fa-bars"></i>
+         </a>
+         <div class="menu visible-lg">
+            <ul>
+               <li><a href="home.html" class="menu-link">Главная</a></li>
+               <li><a href="contacts.html" class="menu-link">Контакты</a></li>
+               <li><a href="information.html" class="menu-link">О нас</a></li>
+               <li><a href="request.html" class="get-appl-btn">Подать заявку</a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="table">
+         <div class="table-header">
+            <h2>Заполнение заявки</h2>
+            <hr>
+         </div>
+         <div class="form-menu">
+            <form name="test" class="telegram-form">
+               <p>
+               <h3>Ваше имя:</h3><br>
+               <input class="inpttxt" type="text" name="name" placeholder="Введите своё имя" size="40">
+               </p>
+               <p>
+               <h3>Ваша Фамилия:</h3><br>
+               <input class="inpttxt" type="text" name="surname" placeholder="Введите свою фамилию" size="40">
+               </p>
+               <p>
+               <h3>Ваш номер телефона:</h3><br>
+               <input class="inpttxt" type="tel" name="number" placeholder="Введите свой номер телефона" size="40">
+               </p>
+               <p>
+               <h3>Выберете нужную услугу:</h3><Br>
+               <select class="selectappl" name="selectedApp">
+                  <option>ID-карта</option>
+                  <option>Загран. паспорт</option>
+                  <option>Выписка</option>
+                  <option>Горесполком</option>
+                  <option>Военный</option>
+               </select>
+               </p>
+               <p>
+                  <label for="myfile" class="label">Выберите файлы</label>
+                  <input class="file_add" type="file" name="myfile" accept=".jpg,.jpeg,.png,.doc,.docx,.pdf" multiple>
+               </p>
+               <p>
+                  <label>
+                     <input class="check" type="checkbox" name="terms">
+                     Срочный вопрос
+                  </label>
+               <h3>Дополнительный комментарий:</h3><Br>
+               <textarea class="txtarea" name="comment" placeholder="Здесь можете ввести доп. информацию или пожелания"
+                  cols="40" rows="3"></textarea>
+               </p>
+               <p>
+                  <input class="submitbtn" type="submit" value="Отправить">
+               </p>
+            </form>
+         </div>
+      </div>
+      <div class="contact">
+         <h4>
+            Мы на Google Maps 📍
+         </h4>
+         <button class="maps-btn">Посмотреть на карте</button>
+      </div>
+      <div class="footer-wrap">
+         <div class="footer">
+            <div class="footer-menu">
+               <ul>
+                  <li class="footer-menu-link i1">
+                     <a href="https://www.facebook.com/oleg.melnykov.7" class="l1"><img src="img/fc_icon.png"
+                           alt="ico"></a>
+                  </li>
+                  <li class="footer-menu-link i2">
+                     <a href="https://www.instagram.com/document_ks/" class="l2"><img src="img/inst_ico.png"
+                           alt="ico"></a>
+                  </li>
+                  <li class="footer-menu-link i3">
+                     <a href="" class="l3"><img src="img/email_ico.png" alt="ico"></a>
+                  </li>
+                  <li class="footer-menu-link i4">
+                     <a href="https://goo.gl/maps/KEZ9j1eXAizJKRjv6" class="l4"><img src="img/maps_ico.png"
+                           alt="ico"></a>
+                  </li>
+               </ul>
+            </div>
+            <div class="copyright">
+               <a hred="/" class="footer-item">Copyright ⓒ 2022. All rights reserved by Vector</a>
+            </div>
+         </div>
+      </div>
+
+      <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+      <script src="javascript/menu.js"></script>
+      <script src="javascript/file.js"></script>
+      <script src="javascript/main.js"></script>
+
+</body>
+
+</html>

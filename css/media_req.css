@@ -1,0 +1,58 @@
+@media (max-width: 1199px){
+   html{
+      font-size: 12px;
+   }
+   .btn-apl{
+      font-size: 18px;
+   }
+   .submitbtn{
+      margin-left: 75px;
+   }
+}
+
+@media (max-width: 969px){
+   html{
+      font-size: 12px;
+   }
+   .btn-apl{
+      font-size: 16px;
+   }
+   .visible-lg{
+      display: none;
+   }
+   .m-menu-link{
+      display: block;
+   }
+   .inpttxt{
+      height: 4vh;
+      width: 60vw;
+   }
+   .txtarea{
+      height: 15vh;
+      width: 65vw;
+      font-size: 1.2rem;
+   }
+   .submitbtn{
+      margin-left: 35px;
+   }
+   .footer-item{
+      font-size: 12px;
+   }
+   .copyright{
+      margin-left: 70px;
+   }
+   .table-header h2{
+      font-size: 2rem;
+   }
+
+   .cwu-btn{
+      display: inline-block;
+      margin: 0;
+      width: 90px;
+      font-size: 1rem;
+   }
+
+   .footer-menu-link{
+      margin-right: 5px;
+   }
+}
