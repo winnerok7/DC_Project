@@ -31,7 +31,10 @@
    .price-tag{
       width: 70%;
       margin: 2rem auto;
-      height: 250px;
+      height: 270px;
+   }
+   .price-tag p {
+      margin-top: 15px;
    }
    .footer-item{
       font-size: 12px;
