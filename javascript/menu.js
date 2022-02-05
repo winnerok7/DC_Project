@@ -1,6 +1,6 @@
-$(window).on('load', function () {
+/*$(window).on('load', function () {
    $('.preloader').fadeOut().end().delay(400).fadeOut('slow');
-});
+});*/
 $(function () {
    var link = $('.m-menu-link');
    var close = $('.close-menu');
